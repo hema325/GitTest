@@ -23,6 +23,7 @@ namespace GitTest.Controllers
         {
             // master commit 1
             // master commit 2
+            // master commit 3
             // test commit 1
             // test commit 2
             // test commit 3

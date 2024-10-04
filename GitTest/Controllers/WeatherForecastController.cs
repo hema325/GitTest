@@ -17,6 +17,8 @@ namespace GitTest.Controllers
         {
             _logger = logger;
             // github 1
+            // github 2
+            
         }
 
         [HttpGet(Name = "GetWeatherForecast")]

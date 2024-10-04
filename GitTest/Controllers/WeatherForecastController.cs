@@ -16,6 +16,7 @@ namespace GitTest.Controllers
         public WeatherForecastController(ILogger<WeatherForecastController> logger)
         {
             _logger = logger;
+            // github 1
         }
 
         [HttpGet(Name = "GetWeatherForecast")]

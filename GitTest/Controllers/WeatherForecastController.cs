@@ -21,7 +21,6 @@ namespace GitTest.Controllers
         [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
         {
-        //edit 1
             // edit 2 Test branch
             // ttttttt
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast

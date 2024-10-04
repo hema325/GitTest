@@ -22,6 +22,7 @@ namespace GitTest.Controllers
         public IEnumerable<WeatherForecast> Get()
         {
             // master commit 1
+            // master commit 2
             // test commit 1
             // test commit 2
             // test commit 3

@@ -22,7 +22,7 @@ namespace GitTest.Controllers
         public IEnumerable<WeatherForecast> Get()
         {
         //edit 1
-            // edit 2
+            // edit 2 Test branch
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
                 Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),

@@ -23,6 +23,7 @@ namespace GitTest.Controllers
         {
             // master commit 1
             // test commit 1
+            // test commit 2
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
                 Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
